@@ -44,6 +44,6 @@ async def on_ready():
     url="http://www.twich.tv/accountname"))
     print("Estas conectado dash")
 
-bot.run('NzE1OTM4NzAyMTMxNzI0Mjg4.XtEgDg.ikdudD75nT2Cm8bklGbX7jnjqX4')
+bot.run('secret token bot ')
 
 
