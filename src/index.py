@@ -8,8 +8,12 @@ import re
 bot = commands.Bot(command_prefix='>', description="This is bot dash")
 
 @bot.command()
+async def welcome_Alert(ctx):
+    await ctx.send(bool
+
+@bot.command()
 async def ping(ctx):
-   await ctx.send('dash')
+    await ctx.send('dash')
 
 @bot.command()
 async def sum(ctx,numOne: int,numTwo: int):
@@ -36,14 +40,14 @@ async def youtube(ctx, *, search):
     await ctx.send('https://www.youtube.com/watch?v=' + search_result[0])
 
 
-# Events from api of discord
+# Events from api of discord ## issue 002 arreglar error sobre search_results regular expresions
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Streaming(name="dash esta list",
-    url="http://www.twich.tv/accountname"))
-    print("Estas conectado dash")
+    await bot.change_presence(activity=discord.Streaming(name="dash esta online",
+    url="https://www.twitch.tv/accountname"))
+    print("Now online on twich")
 
-bot.run('secret token bot ')
+bot.run('NzE1OTM4NzAyMTMxNzI0Mjg4.XtaBfA.S5j02TfnE9YchluErIgj8nT_cb0')
 
 
