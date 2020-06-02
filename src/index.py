@@ -48,6 +48,6 @@ async def on_ready():
     url="https://www.twitch.tv/accountname"))
     print("Now online on twich")
 
-bot.run('NzE1OTM4NzAyMTMxNzI0Mjg4.XtaBfA.S5j02TfnE9YchluErIgj8nT_cb0')
+bot.run('secret token')
 
 
