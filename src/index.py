@@ -7,13 +7,16 @@ import re
 
 bot = commands.Bot(command_prefix='>', description="This is bot dash")
 
+#welcome alert still dev 
 @bot.command()
 async def welcome_Alert(ctx):
-    await ctx.send(bool
+    await ctx.send(bool)
 
+
+# image command say hello done.
 @bot.command()
-async def ping(ctx):
-    await ctx.send('dash')
+async def hola(ctx):
+    await ctx.send('Hello', file=discord.File('hello-yui.png', 'hello-yui.png'))
 
 @bot.command()
 async def sum(ctx,numOne: int,numTwo: int):
@@ -48,6 +51,6 @@ async def on_ready():
     url="https://www.twitch.tv/accountname"))
     print("Now online on twich")
 
-bot.run('secret token')
+bot.run('secret code')
 
 
