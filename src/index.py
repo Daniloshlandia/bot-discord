@@ -48,9 +48,9 @@ async def youtube(ctx, *, search):
 @bot.event
 async def on_ready():
     await bot.change_presence(activity=discord.Streaming(name="dash esta online",
-    url="https://www.twitch.tv/accountname"))
+    url="https://www.twitch.tv/danilosh45"))
     print("Now online on twich")
 
-bot.run('secret code')
+bot.run("")
 
 
